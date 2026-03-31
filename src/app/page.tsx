@@ -1,10 +1,10 @@
-import HeroSection from "../components/home/HeroSection";
-import SuggestionsSection from "../components/home/SuggestionsSection";
-import PlanLaterSection from "../components/home/PlanLaterSection";
-import NextTripSection from "../components/home/NextTripSection";
-import DriveSection from "../components/home/DriveSection";
-import BusinessSection from "../components/home/BusinessSection";
-import AppDownloadSection from "../components/home/AppDownloadSection";
+import HeroSection from "../components/HeroSection";
+import SuggestionsSection from "../components/SuggestionsSection";
+import PlanLaterSection from "../components/PlanLaterSection";
+import NextTripSection from "../components/NextTripSection";
+import DriveSection from "../components/DriveSection";
+import BusinessSection from "../components/BusinessSection";
+import AppDownloadSection from "../components/AppDownloadSection";
 
 export default function Home() {
   return (
