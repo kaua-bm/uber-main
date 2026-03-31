@@ -1,0 +1,187 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 24px 80px;
+  gap: 40px;
+}
+
+.left {
+  flex: 1;
+  max-width: 560px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.changeCity {
+  text-decoration: underline;
+  color: #000;
+  font-size: 14px;
+}
+
+.title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -1.5px;
+  margin-bottom: 28px;
+  color: #000;
+}
+
+.timeBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 500px;
+  padding: 10px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.timeBtn:hover {
+  background-color: #d0d0d0;
+}
+
+.inputGroup {
+  background-color: #f6f6f6;
+  border-radius: 8px;
+  padding: 4px 0;
+  margin-bottom: 20px;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  padding: 14px 16px;
+  gap: 14px;
+  position: relative;
+}
+
+.dotBlack {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+  flex-shrink: 0;
+}
+
+.dotSquare {
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  flex-shrink: 0;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #545454;
+  width: 100%;
+  font-family: inherit;
+}
+
+.navIcon {
+  color: #000;
+  flex-shrink: 0;
+}
+
+.divider {
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 0 16px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.priceBtn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 500px;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.priceBtn:hover {
+  background-color: #333;
+}
+
+.loginLink {
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+  text-decoration: underline;
+}
+
+.right {
+  flex: 1;
+  max-width: 560px;
+}
+
+.imageCard {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.heroImage {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  display: block;
+}
+
+.cardOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(180, 120, 80, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+}
+
+.cardOverlay span {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.scheduleBtn {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 500px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
