@@ -14,7 +14,7 @@ export default function BusinessSection() {
           </p>
           <div className={styles.actions}>
             <button className={styles.startBtn}>Começar</button>
-            <a href="#" className={styles.solutionsLink}>Confira nossas soluções</a>
+            <a href="/pagina" className={styles.solutionsLink}>Confira nossas soluções</a>
           </div>
         </div>
         <div className={styles.right}>

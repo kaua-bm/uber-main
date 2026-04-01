@@ -22,7 +22,7 @@ export default function DriveSection() {
           </p>
           <div className={styles.actions}>
             <button className={styles.startBtn}>Começar</button>
-            <a href="#" className={styles.loginLink}>Já tem uma conta? Fazer login</a>
+            <a href="/pagina" className={styles.loginLink}>Já tem uma conta? Fazer login</a>
           </div>
         </div>
       </div>

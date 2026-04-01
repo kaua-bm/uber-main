@@ -59,7 +59,7 @@ export default function SuggestionsSection() {
           </p>
           <div className={styles.loginActions}>
             <button className={styles.loginBtn}>Faça login na sua conta</button>
-            <a href="#" className={styles.createAccount}>Crie uma conta</a>
+            <a href="/pagina" className={styles.createAccount}>Crie uma conta</a>
           </div>
         </div>
         <div className={styles.loginRight}>
